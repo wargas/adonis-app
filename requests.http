@@ -1,0 +1,9 @@
+###
+OPTIONS GET http://localhost:3333/api/v1/me
+
+###
+GET http://localhost:3333/api/v1/me
+Authorization: Bearer oat_NA.VWlMX2Q5VmFYbWdRSzBJcHFtdWY1V2JLYk9OVDlZNFpaWU9WXzhzRjM2NjU5NzQ2NzE
+
+###
+POST http://localhost:3333/auth/login
