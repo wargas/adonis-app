@@ -17,6 +17,5 @@ COPY . .
 # Se tiver build (TypeScript, etc)
 # RUN bun run build
 
-RUN bun bin/console.ts migration:run
 
 CMD ["bun", "bin/server.ts"]
